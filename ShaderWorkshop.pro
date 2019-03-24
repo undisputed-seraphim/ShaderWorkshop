@@ -17,24 +17,24 @@ TARGET = ShaderWorkshop
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-        shaderworkshop.cpp \
-    renderer.cpp \
-    effect.cpp \
-    editorpage.cpp \
-    codeeditor.cpp \
-    glslhighlighter.cpp \
-    channelsettings.cpp
+SOURCES += src/main.cpp\
+        src/shaderworkshop.cpp \
+    src/renderer.cpp \
+    src/effect.cpp \
+    src/editorpage.cpp \
+    src/codeeditor.cpp \
+    src/glslhighlighter.cpp \
+    src/channelsettings.cpp
 
-HEADERS  += shaderworkshop.h \
-    renderer.h \
-    effect.h \
-    editorpage.h \
-    linenumberarea.h \
-    codeeditor.h \
-    glslhighlighter.h \
-    channelsettings.h
+HEADERS  += src/shaderworkshop.h \
+    src/renderer.h \
+    src/effect.h \
+    src/editorpage.h \
+    src/linenumberarea.h \
+    src/codeeditor.h \
+    src/glslhighlighter.h \
+    src/channelsettings.h
 
-FORMS    += shaderworkshop.ui \
-    editorpage.ui \
-    channelsettings.ui
+FORMS    += src/shaderworkshop.ui \
+    src/editorpage.ui \
+    src/channelsettings.ui
